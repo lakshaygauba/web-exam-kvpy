@@ -1,0 +1,25 @@
+{
+  "name": "KVPY@TalentBrick",
+  "short_name": "KVPY",
+  "theme_color": "#2196f2",
+  "display": "standalone",
+  "scope": "./",
+  "start_url": "./index.html",
+  "icons": [
+    {
+      "src": "https://icdn.talentbrick.com/main/icons/apple-touch-icon.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "https://icdn.talentbrick.com/main/icons/android-chrome-192x192.png",
+      "sizes": "192x192",
+      "type": "image/png"
+    },
+    {
+      "src": "https://icdn.talentbrick.com/main/icons/android-chrome-512x512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

@@ -6,6 +6,52 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
+  plugins: [
+    [
+      '@docusaurus/plugin-pwa',
+      {
+        debug: false,
+        offlineModeActivationStrategies: [
+          'appInstalled',
+          'standalone',
+          'queryString',
+        ],
+        pwaHead: [
+          {
+            tagName: 'link',
+            rel: 'icon',
+            href: '/img/docusaurus.png',
+          },
+          {
+            tagName: 'link',
+            rel: 'mask-icon',
+            href: 'https://icdn.talentbrick.com/main/icons/logo.svg',
+            color: '#2196f2',
+          },
+          {
+            tagName: 'link',
+            rel: 'apple-touch-icon',
+            href: 'https://icdn.talentbrick.com/main/icons/apple-touch-icon.png',
+          },
+          {
+            tagName: 'meta',
+            name: 'apple-mobile-web-app-capable',
+            content: 'yes',
+          },
+          {
+            tagName: 'link',
+            rel: 'manifest',
+            href: '/manifest.json', // your PWA manifest
+          },
+          {
+            tagName: 'meta',
+            name: 'theme-color',
+            content: '#2196f2',
+          },
+        ],
+      },
+    ],
+  ],
   title: 'KVPY@TalentBrick',
   tagline: 'Prepare for Kishore Vaigyanik Protsahan Yojana at a glance with TalentBrick open-source education model.',
   url: 'https://kvpy.talentbrick.com',
