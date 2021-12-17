@@ -56,6 +56,7 @@ const config = {
   tagline: 'Prepare for Kishore Vaigyanik Protsahan Yojana at a glance with TalentBrick open-source education model.',
   url: 'https://kvpy.talentbrick.com',
   baseUrl: '/',
+  trailingSlash: false,
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
   favicon: 'img/favicon.ico',
