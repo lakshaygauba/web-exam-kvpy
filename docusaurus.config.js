@@ -51,7 +51,6 @@ const config = {
         ],
       },
     ],
-    'plugin-image-zoom'
   ],
   title: 'KVPY@TalentBrick',
   tagline: 'Prepare for Kishore Vaigyanik Protsahan Yojana at a glance with TalentBrick open-source education model.',
@@ -97,7 +96,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      zoomSelector: '.markdown :not(a) > img',
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
