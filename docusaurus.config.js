@@ -96,7 +96,6 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
-      metadata: [{name: 'generator', content: 'TalentBrick.com'}],
       colorMode: {
         defaultMode: 'dark',
         disableSwitch: false,
